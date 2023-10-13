@@ -31,8 +31,8 @@ function App() {
             {/*<button onClick={(event)=>{console.log("Hello")}}>MyYouTubeChanel-1</button>*/}
 
 
-            <button onClick={(event)=>onClickHandler("Vasya")}>MyYouTubeChanel-1</button>
-            <button onClick={(event)=>onClickHandler("Ivan")}>MyYouTubeChanel-2</button>
+            <button onClick={()=>onClickHandler("Vasya")}>MyYouTubeChanel-1</button>
+            <button onClick={()=>onClickHandler("Ivan")}>MyYouTubeChanel-2</button>
 
 
             {/*<button onClick={()=>onClickHandler("some info")}>MyYouTubeChanel-3</button>*/}
